@@ -1,0 +1,59 @@
+body, html {
+    /* height: 100%; */
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .wave {
+    margin-top: -9px;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+
+  .content {
+    margin-top: -90px;
+    margin-bottom: 70px;
+  }
+
+  .section1, .section2 {
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: justify;
+  }
+
+  h2 {
+    color: #800080;
+  }
+
+  .section2 {
+    text-align: right;
+  }
+
+  .foot {
+    position: relative;
+    background-color: aqua;
+    height: 50px;
+    margin-bottom: -9px;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+
+  .text {
+    position: absolute;
+    /* margin: auto; */
+    /* width: 50%; */
+    top: -12%;
+    left: 45%;
+    /* text-align: center; */
+  }
